@@ -1,5 +1,5 @@
 ---
-title: $96.280
+title: $96,280.69
 description: So freaking speechless right now....
 tags:
   - vercel
@@ -21,5 +21,5 @@ Conclusion: Vercel Support Team confirmed -> won't be charge.
 
 ---
 
-__tldr: cara.app blew up and serverless functions costs them $96.280.__
+__tldr: cara.app blew up and serverless functions costs them $96,280.69.__
 

@@ -1,33 +1,50 @@
 ---
-import { SITE } from '$/config'
-import BaseHead from '$/components/BaseHead.astro';
-import MainLayout from '$/components/MainLayout.astro';
+import { SITE } from "$/config";
+import BaseHead from "$/components/BaseHead.astro";
+import MainLayout from "$/components/MainLayout.astro";
 
-const { content, showPageHeader = true } = Astro.props
+const { content, showPageHeader = true } = Astro.props;
 ---
+
 <!doctype html>
 <html lang="en" class="dark">
     <head>
-        <BaseHead title={ content.title ? `${ SITE.title } | ${content.title}` : SITE.title } description={ content.description } image={SITE.image}/>
+        <BaseHead
+            title={content.title
+                ? `${SITE.title} | ${content.title}`
+                : SITE.title}
+            description={content.description}
+            image={SITE.image}
+        />
     </head>
     <MainLayout>
-        {showPageHeader &&
-            <div class="page__header">
-                <h1 class="page__title">{content.title}</h1>
-                <h5 class="page__desc">{content.description}</h5>
-            </div>
+        {
+            showPageHeader && (
+                <div class="page__header">
+                    <h1 class="page__title">{content.title}</h1>
+                    <h5 class="page__desc">{content.description}</h5>
+                </div>
+            )
         }
         <slot />
     </MainLayout>
 </html>
+<style is:global>
+    .tag-list {
+        @apply list-none flex gap-2 flex-wrap;
+    }
+    .tag {
+        @apply inline-block text-base    px-2 py-1 rounded text-theme-dark-primary bg-theme-primary hover:bg-theme-dark-primary hover:text-theme-primary;
+    }
+</style>
 <style>
     .page__header {
-        @apply py-4 mb-1
+        @apply py-4 mb-1;
     }
     .page__title {
-        @apply text-5xl font-extrabold text-theme-dark-primary
+        @apply text-5xl font-extrabold text-theme-dark-primary;
     }
     .page__desc {
-        @apply text-white
+        @apply text-white;
     }
 </style>

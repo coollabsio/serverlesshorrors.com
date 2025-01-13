@@ -1,38 +1,51 @@
 ---
-import type { CollectionEntry } from 'astro:content';
-import PostPreview from './PostPreview.astro'
+import type { CollectionEntry } from "astro:content";
+import PostPreview from "./PostPreview.astro";
 
 interface Props {
-    posts: CollectionEntry<'blog'>
-    heading?: string
-    mode?: 'row' | 'col'
+    posts: CollectionEntry<"blog">;
+    heading?: string;
+    mode?: "row" | "col";
 }
 
-const { posts, heading, mode = 'col' } = Astro.props
+const { posts, heading, mode = "col" } = Astro.props;
 const sortedPosts = posts.sort((a, b) => {
-    return new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
+    return new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf();
 });
 ---
-{ heading ? <h5 class={`post-preview__heading post-preview__heading--${mode} ink-h`}>{heading}</h5> : ''}
+
+{
+    heading ? (
+        <h5
+            class={`post-preview__heading post-preview__heading--${mode} ink-h`}
+        >
+            {heading}
+        </h5>
+    ) : (
+        ""
+    )
+}
 <section class={`post-preview__list post-preview__list--${mode}`}>
-    {sortedPosts.map((post) => (
-        <PostPreview post={post} asCard={mode === 'row' ? true : false }/>
-    ))}
+    {
+        sortedPosts.map((post) => (
+            <PostPreview post={post} asCard={mode === "row" ? true : false} />
+        ))
+    }
 </section>
 <style>
     .post-preview__heading {
-        @apply pl-0 sm:pl-6
+        @apply pl-0 sm:pl-6;
     }
     .post-preview__heading--row {
-        @apply pl-0
+        @apply pl-0;
     }
     .post-preview__list {
-        @apply flex flex-col gap-12
+        @apply flex flex-col gap-12;
     }
     .post-preview__list--row {
-        @apply flex-row flex-wrap md:px-6 lg:px-0 gap-12 md:gap-8 sm:gap-10 lg:gap-12
+        @apply flex-row flex-wrap md:px-6 lg:px-0 gap-12 md:gap-8 sm:gap-10 lg:gap-12;
     }
     .post-preview__list--col {
-        @apply flex-col gap-12
+        @apply flex-col gap-12;
     }
 </style>

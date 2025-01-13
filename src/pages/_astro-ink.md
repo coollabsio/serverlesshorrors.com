@@ -9,6 +9,5 @@ Made by [Andras](https://twitter.com/heyandras) who is working on an open-source
 **Have a story?**
 
 - [Write me](https://twitter.com/heyandras)
-- [Open a PR on Github](https://github.com/andrasbacsai/serverlesshorrors.com)
+- [Open a PR on Github](https://github.com/coollabsio/serverlesshorrors.com)
 
-                

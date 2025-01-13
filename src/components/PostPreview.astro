@@ -8,7 +8,7 @@ interface Props {
 }
 
 const {
-    post: { data: post, slug, tags },
+    post: { data: post, slug },
     asCard = false,
 } = Astro.props;
 ---
@@ -16,14 +16,15 @@ const {
 <div class={`post-preview ${asCard && "post-preview--card"}`}>
     <div class="post-preview__date-box">
         <div class="post-preview__date">
+            {post.isNew && <span class="post-new">New</span>}
             <span class="post-preview__date__day"
-                >{new Date(post.date).getDate()}</span
-            >
+                >{new Date(post.date).getDate()}
+            </span>
             <span class="post-preview__date__month-n-year"
                 >{
                     `${getMonthName(post.date)} ${new Date(post.date).getFullYear()}`
-                }</span
-            >
+                }
+            </span>
         </div>
     </div>
     <div class="flex-1">
@@ -47,6 +48,9 @@ const {
     </div>
 </div>
 <style>
+    .post-new {
+        @apply text-white border bg-red-600 border-red-500 px-2 py-1 rounded;
+    }
     .post-preview {
         @apply flex gap-6;
     }

@@ -15,7 +15,7 @@
     "cz": "cz"
   },
   "overrides": {
-      "rollup": "npm:@rollup/wasm-node"
+    "rollup": "npm:@rollup/wasm-node"
   },
   "devDependencies": {
     "@astrojs/mdx": "^2.0.0",
@@ -41,6 +41,14 @@
     "svelte": "^4.2.8",
     "tailwindcss": "^3.3.6",
     "typescript": "^5.3.3"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.9.5",
+    "@rollup/rollup-linux-x64-musl": "4.9.5",
+    "@rollup/rollup-linux-arm64-gnu": "4.9.5",
+    "@rollup/rollup-linux-arm64-musl": "4.9.5",
+    "@rollup/rollup-darwin-x64": "4.9.5",
+    "@rollup/rollup-darwin-arm64": "4.9.5"
   },
   "dependencies": {
     "@astrojs/markdoc": "^0.8.0",

@@ -1,6 +1,6 @@
 ---
 title: $1273.69
-description: We asked Devin (AI) to make a change....
+description: We asked Devin (AI) to make a change in our codebase....
 tags:
   - posthog
   - devin

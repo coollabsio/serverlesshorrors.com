@@ -8,7 +8,6 @@ tags:
   - gcs
 author: Andras Bacsai
 authorTwitter: heyandras
-isNew: true
 date: "2025-01-17T12:34:56.789Z"
 image: https://d3e0luujhwn38u.cloudfront.net/resized/Yz_3czKFNR5RtyAYlCpKpmqHrdAhJnZYa05sAU_LWzE/s:1200/plain/s3://typefully-user-uploads/img/original/10070/c733a9ff-eb53-4a0d-a29b-9f7c35a37f5d.png__edited
 category: development

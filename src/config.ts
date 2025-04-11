@@ -13,7 +13,7 @@ export const NAV_ITEMS: NavItems = {
 		path: "/tags",
 		title: "tags",
 	},
-	
+
 	// about: {
 	// 	path: "/about",
 	// 	title: "about",
@@ -38,7 +38,7 @@ export const SITE = {
 	// Author: Twitter handler
 	authorTwitter: "heyandras", // Example: FredKSchott
 	// Author: Image external source
-	authorImage: " https://pbs.twimg.com/profile_images/1482658380913201158/NwpZWIaU_200x200.jpg", // Example: https://pbs.twimg.com/profile_images/1272979356529221632/sxvncugt_400x400.jpg, https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
+	authorImage: " https://pbs.twimg.com/profile_images/1884210412524027905/jW4NB4rx_400x400.jpg", // Example: https://pbs.twimg.com/profile_images/1272979356529221632/sxvncugt_400x400.jpg, https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
 	// Author: Bio
 	authorBio:
 		"Solopreneuer. Building Coolify.io in public an open-source & self-hostable Heroku / Netlify / Vercel alternative.",

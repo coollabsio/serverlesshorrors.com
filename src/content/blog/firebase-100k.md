@@ -43,7 +43,7 @@ Google refunded the bill. But my website supporting 140,000 game developers is g
 
 Cool to see this site (serverless horrors)--great initiative from Andras!
 
-Also might start my own blog / advocacy group at stopuncappedbilling.com. 
+Also might start my own blog / advocacy group at [stopuncappedbilling.com](https://stopuncappedbilling.com). 
 
 Looking into Coolify now. It seems cool as the name implies. Here are some tips to [protect yourself](https://www.reddit.com/r/indiehackers/comments/1khusk5/protect_yourself_and_your_indie_project_what_i/) that I typed up for indie developers.
 

@@ -1,6 +1,6 @@
 ---
 title: ~$1189.420/month
-description: I ran a semi popular WebGL games uploading site that was hit bad by a DoS and I got a single day firebase bill for $100k...
+description: For no reason, Webflow charged me $1189.420 for a single month from a 69$/month plan.
 tags:
   - webflow
   - bandwidth

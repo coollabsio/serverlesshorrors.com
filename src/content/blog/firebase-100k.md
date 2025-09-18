@@ -10,7 +10,6 @@ authorTwitter: heyandras
 date: "2025-05-03T12:34:56.789Z"
 image: https://d3e0luujhwn38u.cloudfront.net/resized/8GtQMGxQ0kxD84V_Wcd2Zohmey392OW69c56gd88on4/s:1200/plain/s3://typefully-user-uploads/img/original/10070/abdf7229-d194-4b8d-b6e3-685e195cc021.png__edited
 category: development
-isNew: true
 ---
 
 ---

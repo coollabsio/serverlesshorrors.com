@@ -9,7 +9,7 @@ tags:
 author: Andras Bacsai
 authorTwitter: heyandras
 date: "2025-01-17T12:34:56.789Z"
-image: https://d3e0luujhwn38u.cloudfront.net/resized/Yz_3czKFNR5RtyAYlCpKpmqHrdAhJnZYa05sAU_LWzE/s:1200/plain/s3://typefully-user-uploads/img/original/10070/c733a9ff-eb53-4a0d-a29b-9f7c35a37f5d.png__edited
+image: /assets/firebase-70k.png
 category: development
 ---
 
@@ -19,7 +19,7 @@ category: development
 
 Conclusion: Never let your Firebase project alone!
 
-Fun Fact: <img src="https://d3e0luujhwn38u.cloudfront.net/resized/qIQXsE93cF-dR0O6oSkXDG7eX_k-OATJYUGWF4LL9NI/s:1200/plain/s3://typefully-user-uploads/img/original/10070/b071861a-8c31-4a6e-9cd2-9921bde538e8.png__edited" alt="Firebase Storage" >
+Fun Fact: <img src="/assets/firebase-fun-fact.png" alt="Firebase Storage" >
 
 ---
 

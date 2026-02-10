@@ -15,8 +15,9 @@ const {
   title = SITE.title,
   description,
   permalink,
-  image,
+  image: rawImage,
 } = Astro.props;
+const image = rawImage?.startsWith("/") ? `${SITE.url}${rawImage}` : rawImage;
 ---
 
 <!-- Use Google Fonts, if you don't wanna prefer a self-hosted version --><!-- <link rel="preconnect" href="https://fonts.googleapis.com">

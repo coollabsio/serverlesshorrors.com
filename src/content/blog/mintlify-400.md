@@ -8,7 +8,7 @@ tags:
 author: Andras Bacsai
 authorTwitter: heyandras
 date: "2024-09-01T12:34:56.789Z"
-image: https://d3e0luujhwn38u.cloudfront.net/resized/gI4OSlKidGyaIHLuEjd-n3mNx5zaNvanu6bDbxpWlA0/s:1200/plain/s3://typefully-user-uploads/img/original/10070/7d3c6ff0-f340-4f41-8567-88dd19d521ac.png__edited
+image: /assets/mintlify-400.png
 category: development
 ---
 

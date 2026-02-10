@@ -8,7 +8,7 @@ tags:
 author: Andras Bacsai
 authorTwitter: heyandras
 date: "2024-02-13T12:34:56.789Z"
-image: https://d3e0luujhwn38u.cloudfront.net/resized/VM4HdJDv_mynLuaL0zP0kgg6wjuG0wj3LxUYvSfBnoI/s:1200/plain/s3://typefully-user-uploads/img/original/10070/49efe72e-e447-43d5-b12c-89abee39a3ec.png__edited
+image: /assets/vercel-23k.png
 category: development
 ---
 

@@ -9,7 +9,7 @@ tags:
 author: Andras Bacsai
 authorTwitter: heyandras
 date: "2024-04-29T12:34:56.789Z"
-image: https://d3e0luujhwn38u.cloudfront.net/resized/lsRq0Mpg3hd4kmwUyrzmyWyOZiPyeANR7LPL9ZQ1uTk/s:1200/plain/s3://typefully-user-uploads/img/original/10070/6e13f962-8316-4378-b823-0587b4939835.webp__edited
+image: /assets/aws-1.3k.webp
 category: development
 ---
 

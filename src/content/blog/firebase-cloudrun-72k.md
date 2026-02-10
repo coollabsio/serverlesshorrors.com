@@ -10,7 +10,7 @@ tags:
 author: Andras Bacsai
 authorTwitter: heyandras
 date: "2020-03-27T12:34:56.789Z"
-image: https://d3e0luujhwn38u.cloudfront.net/resized/TJtxc1AkA87vZ8oPnjdgXDloF3CaMJHDB1G8yJc9cJg/s:3200/plain/s3://typefully-user-uploads/img/original/10070/7fb782e1-c20f-4b84-bdc4-a63ef6c9433a.png__edited
+image: /assets/firebase-cloudrun-72k.png
 category: development
 ---
 

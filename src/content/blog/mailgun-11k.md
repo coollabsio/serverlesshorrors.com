@@ -7,7 +7,7 @@ tags:
 author: Andras Bacsai
 authorTwitter: heyandras
 date: "2024-03-10T12:34:56.789Z"
-image: https://d3e0luujhwn38u.cloudfront.net/resized/3eNT0J0LQEmBg_To44TuAA56P8CqkqcsM-75pqC8JcY/s:1200/plain/s3://typefully-user-uploads/img/original/10070/c383046f-8d88-41d9-a41a-03d6389e260a.webp__edited
+image: /assets/mailgun-11k.webp
 category: development
 ---
 

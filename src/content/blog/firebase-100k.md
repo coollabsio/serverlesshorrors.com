@@ -33,3 +33,16 @@ From the original post:
 > I can’t risk making a minor config mistake and having it cost me 100k.
 
 > Done with cloud.
+
+---
+
+This is an update from the guy who got hit (my name is Rocco). 
+
+Google refunded the bill. But my website supporting 140,000 game developers is gone. I refunded $10,000 in user subscriptions.
+
+Cool to see this site (serverless horrors)--great initiative from Andras!
+
+RIP [simmer.io](https://simmer.io). 
+
+2017-2025.
+

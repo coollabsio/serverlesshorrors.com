@@ -20,7 +20,7 @@
   "devDependencies": {
     "@astrojs/mdx": "^2.0.0",
     "@astrojs/rss": "^4.0.1",
-    "@astrojs/sitemap": "^3.0.3",
+    "@astrojs/sitemap": "3.0.3",
     "@astrojs/svelte": "^5.0.0",
     "@astrojs/tailwind": "^5.0.3",
     "@biomejs/biome": "1.4.1",

@@ -30,7 +30,7 @@
     "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^18.19.3",
     "astro": "^4.0.3",
-    "astro-icon": "^0.8.2",
+
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "globby": "^14.0.0",

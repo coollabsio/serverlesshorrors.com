@@ -47,6 +47,7 @@
   },
   "overrides": {
     "rollup": "npm:@rollup/wasm-node",
+    "sitemap": "7.1.1",
   },
   "packages": {
     "@alloc/quick-lru": ["@alloc/quick-lru@5.2.0", "", {}, ""],
@@ -67,7 +68,7 @@
 
     "@astrojs/rss": ["@astrojs/rss@4.0.1", "", { "dependencies": { "fast-xml-parser": "^4.2.7", "kleur": "^4.1.5" } }, ""],
 
-    "@astrojs/sitemap": ["@astrojs/sitemap@3.0.3", "", { "dependencies": { "sitemap": "^7.1.1", "zod": "^3.22.4" } }, ""],
+    "@astrojs/sitemap": ["@astrojs/sitemap@3.0.3", "", { "dependencies": { "sitemap": "^7.1.1", "zod": "^3.22.4" } }, "sha512-+GRKp1yho9dpHBcMcU6JpbL41k0yYZghOkNsMRb8QIRflbGHvd787tdv9oIZ5NJj0SqAuOlqp2UpqLkJXuAe2A=="],
 
     "@astrojs/svelte": ["@astrojs/svelte@5.0.0", "", { "dependencies": { "@sveltejs/vite-plugin-svelte": "^3.0.0", "svelte2tsx": "^0.6.25" }, "peerDependencies": { "astro": "^4.0.0-beta.0", "svelte": "^4.0.0 || ^5.0.0-next.1" } }, ""],
 
@@ -1171,7 +1172,7 @@
 
     "safer-buffer": ["safer-buffer@2.1.2", "", {}, ""],
 
-    "sax": ["sax@1.2.4", "", {}, ""],
+    "sax": ["sax@1.5.0", "", {}, "sha512-21IYA3Q5cQf089Z6tgaUTr7lDAyzoTPx5HRtbhsME8Udispad8dC/+sziTNugOEx54ilvatQ9YCzl4KQLPcRHA=="],
 
     "section-matter": ["section-matter@1.0.0", "", { "dependencies": { "extend-shallow": "^2.0.1", "kind-of": "^6.0.0" } }, ""],
 
@@ -1203,7 +1204,7 @@
 
     "sisteransi": ["sisteransi@1.0.5", "", {}, ""],
 
-    "sitemap": ["sitemap@7.1.1", "", { "dependencies": { "@types/node": "^17.0.5", "@types/sax": "^1.2.1", "arg": "^5.0.0", "sax": "^1.2.4" }, "bin": "dist/cli.js" }, ""],
+    "sitemap": ["sitemap@7.1.1", "", { "dependencies": { "@types/node": "^17.0.5", "@types/sax": "^1.2.1", "arg": "^5.0.0", "sax": "^1.2.4" }, "bin": { "sitemap": "dist/cli.js" } }, "sha512-mK3aFtjz4VdJN0igpIJrinf3EO8U8mxOPsTBzSsy06UtjZQJ3YY3o3Xa7zSc5nMqcMrRwlChHZ18Kxg0caiPBg=="],
 
     "slash": ["slash@5.1.0", "", {}, ""],
 
@@ -1389,9 +1390,11 @@
 
     "yocto-queue": ["yocto-queue@1.0.0", "", {}, ""],
 
-    "zod": ["zod@3.22.4", "", {}, ""],
+    "zod": ["zod@3.25.76", "", {}, "sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ=="],
 
     "zwitch": ["zwitch@2.0.4", "", {}, ""],
+
+    "@astrojs/markdoc/zod": ["zod@3.22.4", "", {}, ""],
 
     "@astrojs/telemetry/ci-info": ["ci-info@3.9.0", "", {}, ""],
 
@@ -1424,6 +1427,8 @@
     "ansi-escapes/type-fest": ["type-fest@0.21.3", "", {}, ""],
 
     "ansi-styles/color-convert": ["color-convert@1.9.3", "", { "dependencies": { "color-name": "1.1.3" } }, ""],
+
+    "astro/zod": ["zod@3.22.4", "", {}, ""],
 
     "boxen/chalk": ["chalk@5.3.0", "", {}, ""],
 
@@ -1492,6 +1497,8 @@
     "minizlib/minipass": ["minipass@3.3.6", "", { "dependencies": { "yallist": "^4.0.0" } }, ""],
 
     "needle/debug": ["debug@3.2.7", "", { "dependencies": { "ms": "^2.1.1" } }, ""],
+
+    "needle/sax": ["sax@1.2.4", "", {}, ""],
 
     "normalize-package-data/semver": ["semver@5.7.1", "", { "bin": "bin/semver" }, ""],
 

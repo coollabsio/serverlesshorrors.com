@@ -15,7 +15,8 @@
     "cz": "cz"
   },
   "overrides": {
-    "rollup": "npm:@rollup/wasm-node"
+    "rollup": "npm:@rollup/wasm-node",
+    "sitemap": "7.1.1"
   },
   "devDependencies": {
     "@astrojs/mdx": "^2.0.0",

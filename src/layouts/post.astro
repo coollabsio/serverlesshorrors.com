@@ -184,7 +184,7 @@ const AUTHOR_AVATAR = content.authorImage
                                         {AUTHOR_NAME}
                                     </span>
                                 )}
-                                <p class="author-card__bio">{SITE.authorBio}</p>
+                                <p class="author-card__bio" set:html={SITE.authorBio}></p>
                                 <br />
                                 {USE_SUBSCRIPTION ? (
                                     <form action="" class="subscription-form">
@@ -272,6 +272,13 @@ const AUTHOR_AVATAR = content.authorImage
         }
         .author-card__bio {
             @apply text-white;
+        }
+        .author-card__bio a {
+            color: var(--color-primary, #60a5fa);
+            text-decoration: none;
+        }
+        .author-card__bio a:hover {
+            text-decoration: underline;
         }
 
         .subscription-form {

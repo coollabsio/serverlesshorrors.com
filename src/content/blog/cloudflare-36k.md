@@ -1,6 +1,6 @@
 ---
-title: $35,000
-description: RetainDB side project with 81 users hit a $35k Cloudflare bill — 16B Durable Object writes from a runaway queue loop, unbatched DO writes, and a KV list scan on every request...
+title: $36,000
+description: RetainDB side project with 81 users hit a $36k Cloudflare bill — 16B Durable Object writes from a runaway queue loop, unbatched DO writes, and a KV list scan on every request...
 tags:
   - cloudflare
   - workers
@@ -23,7 +23,7 @@ Conclusion: Fixes deployed. Bill sent to Cloudflare support with full explanatio
 
 ---
 
-__tldr: RetainDB (memory layer for AI agents on Cloudflare Workers + KV + Durable Objects + Queues) with 81 users racked up $35k in one month — 3.13B KV writes ($15,635), 16.62B KV reads ($8,306), 4.01B DO storage rows written ($3,962), 574M KV list ops ($2,870) — caused by three compounding bugs: an infinite queue loop passing `write_mode: "async"` back into itself, 12 unbatched DO `storage.put()` calls per memory write, and a `kv.list()` scan running on 95% of auth requests because legacy keys missed the hash/prefix indexes.__
+__tldr: RetainDB (memory layer for AI agents on Cloudflare Workers + KV + Durable Objects + Queues) with 81 users racked up $36k in one month — 3.13B KV writes ($15,635), 16.62B KV reads ($8,306), 4.01B DO storage rows written ($3,962), 574M KV list ops ($2,870) — caused by three compounding bugs: an infinite queue loop passing `write_mode: "async"` back into itself, 12 unbatched DO `storage.put()` calls per memory write, and a `kv.list()` scan running on 95% of auth requests because legacy keys missed the hash/prefix indexes.__
 
 ---
 

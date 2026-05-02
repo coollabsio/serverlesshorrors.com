@@ -38,7 +38,7 @@ export const SITE = {
 	// Author: Twitter handler
 	authorTwitter: "heyandras", // Example: FredKSchott
 	// Author: Image external source
-	authorImage: " https://pbs.twimg.com/profile_images/1884210412524027905/jW4NB4rx_400x400.jpg", // Example: https://pbs.twimg.com/profile_images/1272979356529221632/sxvncugt_400x400.jpg, https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
+	authorImage: "https://pbs.twimg.com/profile_images/2049068753334452224/vSOyoJ6X_400x400.jpg", // Example: https://pbs.twimg.com/profile_images/1272979356529221632/sxvncugt_400x400.jpg, https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
 	// Author: Bio
 	authorBio:
 		'Founder of <a href="https://coollabs.io" target="_blank">coollabs.io</a> | <a href="https://coolify.io" target="_blank">coolify.io</a> | <a href="https://jean.build" target="_blank">jean.build</a> | <a href="https://serverlesshorrors.com" target="_blank">serverlesshorrors.com</a> | <a href="https://llmhorrors.com" target="_blank">llmhorrors.com</a> | <a href="https://fonts.coollabs.io" target="_blank">fonts.coollabs.io</a> | ❤️ OSS & simplicity | 2 x dad, Entrepreneur.',

@@ -9,7 +9,7 @@ authorTwitter: heyandras
 date: "2026-02-10T12:34:56.789Z"
 image: /assets/vercel-46k.png
 category: development
-isNew: true
+isNew: false
 ---
 
 ---

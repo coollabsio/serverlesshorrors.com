@@ -24,6 +24,13 @@ a {
 .prose {
 	--tw-prose-bold: #fff;
 }
+.prose :not(pre) > code {
+	@apply text-theme-dark-primary bg-white/10 rounded px-1 py-0.5 text-sm font-normal;
+}
+.prose :not(pre) > code::before,
+.prose :not(pre) > code::after {
+	content: "";
+}
 ::-webkit-scrollbar {
 	@apply w-3;
 }

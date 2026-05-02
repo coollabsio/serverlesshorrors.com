@@ -10,7 +10,7 @@ authorTwitter: heyandras
 date: "2024-07-26T12:00:00.000Z"
 image: /assets/cloudflare-images-400.png
 category: development
-isNew: true
+isNew: false
 ---
 
 ---
